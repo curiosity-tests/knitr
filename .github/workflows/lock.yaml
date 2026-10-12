@@ -2,8 +2,7 @@
 name: 'Lock threads'
 
 on:
-  schedule:
-    - cron: '10 5 * * 3'
+  workflow_dispatch:
 
 jobs:
   lock:
